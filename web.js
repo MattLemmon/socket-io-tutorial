@@ -31,7 +31,7 @@ var server = http.createServer(function(request, response){
             break;
     } 
 });
-server.listen(8001);
+server.listen(5000);
 
 var serv_io = io.listen(server);
 
